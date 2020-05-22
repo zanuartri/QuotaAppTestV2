@@ -9,98 +9,83 @@ mvn compile'''
       }
     }
 
-    stage('Start') {
-      parallel {
-        stage('Test Register') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Register') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_Register test'''
-          }
-        }
+      }
+    }
 
-        stage('Test Login') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
-export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_Login test'''
-          }
-        }
-
-        stage('Test Forgot Password') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Forgot Password') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_ForgotPassword test'''
-          }
-        }
-
       }
     }
 
-    stage('Transaction') {
-      parallel {
-        stage('Test Internet Data List') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Login') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+export PATH=$PATH:$M2_HOME/bin
+mvn -Dtest=TC_Login test'''
+      }
+    }
+
+    stage('List Internet Data') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_InternetDataList test'''
-          }
-        }
-
-        stage('Test Internet Data Purchase') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
-export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_InternetDataPurchase test'''
-          }
-        }
-
-        stage('Test Transaction History') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
-export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_TransactionHistory test'''
-          }
-        }
-
       }
     }
 
-    stage('Personal Information') {
-      parallel {
-        stage('Test Edit Personal Information') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Purchase Internet Data') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_EditUser test'''
-          }
-        }
+mvn -Dtest=TC_InternetDataPurchase test'''
+      }
+    }
 
-        stage('Test Change Password') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('History') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+export PATH=$PATH:$M2_HOME/bin
+mvn -Dtest=TC_TransactionHistory test'''
+      }
+    }
+
+    stage('Change Password') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_ChangePassword test'''
-          }
-        }
+      }
+    }
 
-        stage('Test Logout') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Edit Personal Information') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+export PATH=$PATH:$M2_HOME/bin
+mvn -Dtest=TC_EditUser test'''
+      }
+    }
+
+    stage('Logout') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_Logout test'''
-          }
-        }
+      }
+    }
 
-        stage('Test Delete Account') {
-          steps {
-            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+    stage('Delete Account') {
+      steps {
+        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_DeleteAccount test'''
-          }
-        }
-
       }
     }
 
