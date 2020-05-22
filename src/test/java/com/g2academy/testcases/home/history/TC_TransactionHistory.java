@@ -98,7 +98,6 @@ public class TC_TransactionHistory extends RequestConfig {
         result[testCaseIndex][4] = "FAILED";
 
         getPaketDataHistory(phoneNumber);
-        System.out.println(getResponse().getBody().asString());
         Assert.assertEquals(getResponse().getStatusCode(), Integer.parseInt(statusCodeRequest));
 
         if (statusCodeRequest.equals("200")) {

@@ -127,7 +127,6 @@ public class TC_ChangePassword extends RequestConfig {
                 Assert.assertTrue(getResponse().jsonPath().getString("message").contains(responseBodyNewPassword));
             } else {
                 sendOTPCodeForgotPassword(user.getPhoneNumber(), otpCode, statusOtpCode, newPassword, confirmNewPassword);
-                System.out.println(getResponse().getBody().asString());
                 Assert.assertEquals(getResponse().jsonPath().get("status"), statusCodeNewPassword);
                 Assert.assertTrue(getResponse().jsonPath().getString("message").contains(responseBodyNewPassword));
             }
