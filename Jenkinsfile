@@ -44,7 +44,7 @@ mvn -Dtest=TC_ForgotPassword test'''
           steps {
             sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_PaketDataList test'''
+mvn -Dtest=TC_InternetDataList test'''
           }
         }
 
@@ -52,18 +52,18 @@ mvn -Dtest=TC_PaketDataList test'''
           steps {
             sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_PaketDataPurchase test'''
+mvn -Dtest=TC_InternetDataPurchase test'''
           }
         }
 
-      }
-    }
-
-    stage('History') {
-      steps {
-        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+        stage('Test Transaction History') {
+          steps {
+            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
-mvn -Dtest=TC_PaketDataHistory test'''
+mvn -Dtest=TC_TransactionHistory test'''
+          }
+        }
+
       }
     }
 
@@ -93,14 +93,14 @@ mvn -Dtest=TC_Logout test'''
           }
         }
 
-      }
-    }
-
-    stage('Test Delete Account') {
-      steps {
-        sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
+        stage('Test Delete Account') {
+          steps {
+            sh '''export M2_HOME=/usr/local/Cellar/maven/3.6.3_1/libexec
 export PATH=$PATH:$M2_HOME/bin
 mvn -Dtest=TC_DeleteAccount test'''
+          }
+        }
+
       }
     }
 
