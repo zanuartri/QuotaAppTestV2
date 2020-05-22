@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="QuotaApp Suite">
+    <listeners>
+        <listener class-name="com.g2academy.utilities.Listeners"></listener>
+    </listeners>
+    <test thread-count="3" name="Login Menu Test">
+        <classes>
+            <class name="com.g2academy.testcases.start.TC_Login" />
+            <class name="com.g2academy.testcases.start.TC_Register" />
+            <class name="com.g2academy.testcases.start.TC_ForgotPassword" />
+        </classes>
+    </test>
+    <test thread-count="2" name="Home Menu Test">
+        <classes>
+            <class name="com.g2academy.testcases.home.home.TC_InternetDataList" />
+            <class name="com.g2academy.testcases.home.home.TC_InternetDataPurchase" />
+        </classes>
+    </test>
+    <test name="History Menu Test">
+        <classes>
+            <class name="com.g2academy.testcases.home.history.TC_TransactionHistory" />
+        </classes>
+    </test>
+    <test thread-count="4" name="Profile Menu Test">
+        <classes>
+            <class name="com.g2academy.testcases.profile.TC_EditUser" />
+            <class name="com.g2academy.testcases.profile.TC_ChangePassword" />
+            <class name="com.g2academy.testcases.profile.TC_Logout" />
+            <class name="com.g2academy.testcases.profile.TC_DeleteAccount" />
+        </classes>
+    </test>
+</suite>

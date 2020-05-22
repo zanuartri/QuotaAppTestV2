@@ -1,0 +1,6 @@
+2020-05-14 20:35:59 INFO  DefaultHttpClient:695 -I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://project-danapprentech-3.herokuapp.com:443:  (No such file or directory)
+2020-05-14 20:35:59 INFO  DefaultHttpClient:705 -Retrying request to {s}->https://project-danapprentech-3.herokuapp.com:443
+2020-05-14 20:36:00 INFO  DefaultHttpClient:695 -I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://project-danapprentech-3.herokuapp.com:443:  (No such file or directory)
+2020-05-14 20:36:00 INFO  DefaultHttpClient:705 -Retrying request to {s}->https://project-danapprentech-3.herokuapp.com:443
+2020-05-14 20:36:01 INFO  DefaultHttpClient:695 -I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://project-danapprentech-3.herokuapp.com:443:  (No such file or directory)
+2020-05-14 20:36:01 INFO  DefaultHttpClient:705 -Retrying request to {s}->https://project-danapprentech-3.herokuapp.com:443

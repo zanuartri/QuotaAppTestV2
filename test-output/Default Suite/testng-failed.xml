@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="QuotaAppTest(failed)">
+    <classes>
+      <class name="com.g2academy.testcases.profile.TC_EditUser">
+        <methods>
+          <include name="testEditUser" invocation-numbers="9"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.g2academy.testcases.profile.TC_EditUser -->
+    </classes>
+  </test> <!-- QuotaAppTest(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

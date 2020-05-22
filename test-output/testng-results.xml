@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="10792" started-at="2020-05-21T11:32:05Z" finished-at="2020-05-21T11:32:16Z">
+    <groups>
+    </groups>
+    <test name="QuotaAppTest" duration-ms="10792" started-at="2020-05-21T11:32:05Z" finished-at="2020-05-21T11:32:16Z">
+      <class name="com.g2academy.testcases.profile.TC_EditUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="setup" is-config="true" duration-ms="460" started-at="2020-05-21T11:32:05Z" finished-at="2020-05-21T11:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-05-21T11:32:06Z" finished-at="2020-05-21T11:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="1313" started-at="2020-05-21T11:32:09Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="50" started-at="2020-05-21T11:32:11Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name, phone number, email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not a number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zanuar.romadon.dana.id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be all numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="32" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="325" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="33" started-at="2020-05-21T11:32:11Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name, phone number]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not a number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be all numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="15" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="337" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="35" started-at="2020-05-21T11:32:11Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name, email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zanuar.romadon.dana.id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your email address is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="15" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="311" started-at="2020-05-21T11:32:11Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="39" started-at="2020-05-21T11:32:12Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your full name must be alphabetical only]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="24" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="284" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="26" started-at="2020-05-21T11:32:12Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number, email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not a number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zanuar.romadon.dana.id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be all numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="13" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="278" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="30" started-at="2020-05-21T11:32:12Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number, email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not a number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be all numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="14" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="272" started-at="2020-05-21T11:32:12Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="28" started-at="2020-05-21T11:32:13Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zanuar.romadon.dana.id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your email address is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="23" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="286" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="33" started-at="2020-05-21T11:32:13Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[positive case - valid full name, phone number, email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Profile has been updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="9" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="292" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="29" started-at="2020-05-21T11:32:13Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name (below 3 characters)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[za]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your full name length must be 3-20 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="12" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="414" started-at="2020-05-21T11:32:13Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="28" started-at="2020-05-21T11:32:14Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name (exceed 20 characters)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zanuar tri romadon lebih panjang dikit hehe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your full name length must be 3-20 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="13" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="260" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="33" started-at="2020-05-21T11:32:14Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid full name (non alphabetical)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0123 456 78]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your full name must be alphabetical only]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="16" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="260" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="25" started-at="2020-05-21T11:32:14Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid email (no @)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281252930451]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zanuar.romadon.dana.id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your email address is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="12" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="266" started-at="2020-05-21T11:32:14Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="21" started-at="2020-05-21T11:32:15Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number format (not numerical)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[not a number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be all numeric]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="13" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="247" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="24" started-at="2020-05-21T11:32:15Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number format (exceed 15 characters)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+628123456789101112222]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testedituser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your phone number must be less than or equals 15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="12" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="250" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="26" started-at="2020-05-21T11:32:15Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number (outside Indonesia)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+601300808888]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[outsideindonesia@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="6" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="265" started-at="2020-05-21T11:32:15Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="25" started-at="2020-05-21T11:32:16Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number (registered number)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6281234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[registerednumber@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="9" started-at="2020-05-21T11:32:16Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="beforeMethod" is-config="true" duration-ms="250" started-at="2020-05-21T11:32:16Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testEditUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="testEditUser" duration-ms="30" started-at="2020-05-21T11:32:16Z" data-provider="dataEditUser" finished-at="2020-05-21T11:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[negative case - invalid phone number (unverified number)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zanuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+6285785161197]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[unverified@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterMethod" is-config="true" duration-ms="8" started-at="2020-05-21T11:32:16Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="afterClass" is-config="true" duration-ms="372" started-at="2020-05-21T11:32:16Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.g2academy.testcases.profile.TC_EditUser@22f71333]" name="teardown" is-config="true" duration-ms="0" started-at="2020-05-21T11:32:16Z" finished-at="2020-05-21T11:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.g2academy.testcases.profile.TC_EditUser -->
+    </test> <!-- QuotaAppTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>
